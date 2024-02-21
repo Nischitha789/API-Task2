@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: rgb(243, 213, 65);
+}
+.wrapper {
+  width: 600px;
+  background: rgb(237, 228, 228);
+  box-shadow: box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);;
+  padding: 30px 30px 25px;
+}
+.wrapper header {
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  background-color: goldenrod;
+}
+.wrapper .content {
+  margin: 35px 0;
+}
+.content .quote-area {
+  display: flex;
+  justify-content: center;
+}
+.quote-area i {
+  font-size: 15px;
+}
+.quote-area i:first-child {
+  margin: 0 0 3px 10px;
+}
+.quote-area i:last-child {
+  display: flex;
+  align-items: flex-end;
+  margin: 0 0 3px 10px;
+}
+.quote-area #quote {
+  font-size: 22px;
+  text-align: center;
+  word-break: break-all;
+}
+.content #author {
+  display: flex;
+  margin-top: 20px;
+  font-size: 18px;
+  font-style: italic;
+  justify-content: flex-end;
+}
+#author span:first-child {
+  margin: -7px 5px 0 0;
+  font-family: monospace;
+}
+#btn .buttons {
+  padding: 15px;
+  margin-left: 220px;
+  background-color: rgb(159, 29, 31);
+  color: rgb(237, 241, 244);
+  border: none;
+  font-size: larger;
+  font-weight: bolder;
+  border-radius: 10px;
+  cursor: pointer;
+}
